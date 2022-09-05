@@ -23,7 +23,7 @@ print 'database name:' + db_name
 
 if __name__ == '__main__':
 
-    db = MySQLdb.connect(ip, user_name, passwd)
+    db = MySQLdb.connect(localhost, user_name, passwd)
     with db:
 
         cursor = db.cursor()
