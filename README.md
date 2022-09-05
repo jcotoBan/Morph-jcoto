@@ -55,10 +55,10 @@ Please click the above links for the installation of the dependent software.
 
 It may require to install some lacked libraries, e.g., pycurl, mysqldb.
 ```bash
-sudo apt-get update    
-sudo apt-get install python-pycurl
-sudo apt-get install python-mysqldb
-sudo apt-get install python-numpy
+sudo apt-get update -y    
+sudo apt-get install python-pycurl -y
+sudo apt-get install python-mysqldb -y
+sudo apt-get install python-numpy -y
 ```
 
 Step 1: Clone the code from Github
